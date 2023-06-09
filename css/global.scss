@@ -1,0 +1,161 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  position: relative;
+}
+
+body {
+  font-family: "Segoe UI" !important;
+  font-size: 16px;
+  line-height: 32px;
+  font-weight: 400;
+  color: var(--text-primary);
+}
+
+h1,
+.h1 {
+  font-size: clamp(2.5rem, 2.4rem + 0.5vw, 3rem);
+  line-height: 1.3;
+}
+
+h2,
+.h2 {
+  font-size: 2.25rem;
+  font-size: clamp(2.25rem, 2.2rem + 0.25vw, 2.5rem);
+  line-height: 1.3;
+}
+
+h3,
+.h3 {
+  font-size: 1.625rem;
+  font-size: clamp(1.625rem, 1.575rem + 0.25vw, 1.875rem);
+  line-height: 1.3;
+}
+
+h4,
+.h4 {
+  font-size: 1.25rem;
+  font-size: clamp(1.25rem, 1.2rem + 0.25vw, 1.5rem);
+  line-height: 1.3;
+}
+
+h5,
+.h5 {
+  font-size: 1.125rem;
+  font-size: clamp(1.125rem, 1.1rem + 0.125vw, 1.25rem);
+  line-height: 1.6;
+}
+
+h6,
+.h6 {
+  font-size: 18px;
+  line-height: 1.8;
+}
+
+.p {
+  font-size: 16px;
+}
+
+.fw-500 {
+  font-weight: 500;
+}
+.fw-600 {
+  font-weight: 600;
+}
+.fw-700 {
+  font-weight: 700;
+}
+.fw-800 {
+  font-weight: 800;
+}
+
+.btn {
+  padding: 12px 24px;
+  width: 162px;
+  height: 56px;
+  background-color: transparent;
+  border: 2px solid #8ebd3b;
+  border-radius: 4px;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 32px;
+  color: #8ebd3b;
+}
+.btn:hover {
+  background-color: #8ebd3b;
+  border: 2px solid #8ebd3b;
+  color: white;
+}
+
+.nav-btn {
+  padding: 16px 24px;
+  border: 1px solid #8ebd3b;
+  border-radius: 8px;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 24px;
+  color: #8ebd3b;
+}
+
+.nav-btn:hover {
+  background-color: #8ebd3b;
+  border: 2px solid #8ebd3b;
+  color: white;
+}
+
+.btn--large {
+  height: 56px;
+  max-width: 162px;
+  width: 100%;
+}
+@media all and (min-width: 992px) {
+  .btn--large {
+    max-width: 182px;
+    height: 60px;
+  }
+}
+
+.btn--medium {
+  height: 56px;
+  max-width: 92px;
+  width: 100%;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+  }
+  
+  ul {
+    padding-left: 0;
+  }
+  
+  .py-90 {
+    padding: 90px 0;
+  }
+  @media all and (min-width: 768px) {
+    .py-90 {
+      padding: 80px 0;
+    }
+  }
+  @media all and (min-width: 1200px) {
+    .py-90 {
+      padding: 120px 0;
+    }
+  }
+  
+  .py-120 {
+    padding: 120px 0px;
+  }
+  @media all and (min-width: 768px) {
+    .py-120 {
+      padding: 100px 0;
+    }
+  }
+  @media all and (min-width: 1200px) {
+    .py-120 {
+      padding: 140px 0;
+    }
+  }

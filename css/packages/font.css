@@ -1,0 +1,81 @@
+/* Ubuntu Font start */
+
+@font-face {
+  font-family: "ubuntu";
+  font-weight: 300;
+  src: url(/ASSETS/font-family/Ubuntu/Ubuntu-Light.ttf);
+}
+
+@font-face {
+  font-family: "ubuntu";
+  font-weight: 400;
+  src: url(/ASSETS/font-family/Ubuntu/Ubuntu-Regular.ttf);
+}
+
+@font-face {
+  font-family: "ubuntu";
+  font-weight: 500;
+  src: url(/ASSETS/font-family/Ubuntu/Ubuntu-Medium.ttf);
+}
+
+@font-face {
+  font-family: "ubuntu";
+  font-weight: 700;
+  src: url(/ASSETS/font-family/Ubuntu/Ubuntu-Bold.ttf);
+}
+
+@font-face {
+  font-family: "ubuntu";
+  font-weight: 600;
+  src: url(/ASSETS/font-family/Ubuntu/Ubuntu-Bold.ttf);
+}
+
+@font-face {
+  font-family: "ubuntu";
+  font-weight: 800;
+  src: url(/ASSETS/font-family/Ubuntu/Ubuntu-Bold.ttf);
+}
+
+/* Inter Font start */
+
+@font-face {
+  font-family: "inter";
+  font-weight: 300;
+  src: url(/ASSETS/font-family/inter/Inter-Light.ttf);
+}
+
+@font-face {
+  font-family: "inter";
+  font-weight: 400;
+  src: url(/ASSETS/font-family/inter/Inter-Regular.ttf);
+}
+
+@font-face {
+  font-family: "inter";
+  font-weight: 500;
+  src: url(/ASSETS/font-family/inter/Inter-Medium.ttf);
+}
+
+@font-face {
+  font-family: "inter";
+  font-weight: 600;
+  src: url(/ASSETS/font-family/inter/Inter-SemiBold.ttf);
+}
+
+@font-face {
+  font-family: "inter";
+  font-weight: 700;
+  src: url(/ASSETS/font-family/inter/Inter-Bold.ttf);
+}
+
+@font-face {
+  font-family: "inter";
+  font-weight: 800;
+  src: url(/ASSETS/font-family/inter/Inter-ExtraBold.ttf);
+}
+
+@font-face {
+  font-family: "inter";
+  font-weight: 900;
+  src: url(/ASSETS/font-family/inter/Inter-Black.ttf);
+}
